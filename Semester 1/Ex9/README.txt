@@ -8,7 +8,7 @@ If the user does not enter a number then the cell remains with zero.
 the program puts a number between 1-4 in empty cells and checks for each number if there is no similar
 number in the row, column, and cube.
 
-Compile: g++ -Wall ex9a.cc –o ex9a
+Compile: g++ -Wall ex9a.cc â€“o ex9a
 Run: ex9a
 
 Input:
@@ -19,11 +19,7 @@ Input:
 Output:
  a. print the complete sudoku board.
 
-
-Runtime: ((N^4)*(row*col))^2
-
-
----------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
 File:ex9b.cc
 Add one multiply two
@@ -33,7 +29,7 @@ Written by: Ron Efraim, id = 204661425, login = ronef
 The program receives two numbers from the user.
 Then the program checks how many steps to get equal numbers.
 
-Compile: g++ -Wall ex9b.cc –o ex9b
+Compile: g++ -Wall ex9b.cc â€“o ex9b
 Run: ex9b
 
 Input:
@@ -41,9 +37,7 @@ Input:
 Output:
   a. how many steps
 
-Runtime: (num2-num1)^2
-
----------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
 File:ex9c.cc
 Gold Bars
@@ -54,7 +48,7 @@ The program receives from user numbers to array.
 The program tries, first of all, to assign each bar to the first goldsmith,
 if it fails, it assigns the bar to the other goldsmith.
 
-Compile: g++ -Wall ex9c.cc –o ex9c
+Compile: g++ -Wall ex9c.cc â€“o ex9c
 Run: ex9c
 
 input:
