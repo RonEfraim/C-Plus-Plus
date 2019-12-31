@@ -1,0 +1,66 @@
+File: ex3a.cc 
+Calculate average and count negative and positive numbers
+=============================================
+Written by: Ron Efraim, id = 204661425, login = ronef
+
+The program receive numbers from the user until he press 0.
+Then the program checks the average of numbers and count negative and positive numbers.
+
+Compile: g++ -Wall ex3a.cc –o ex3a
+Run: ex3a
+
+Input: 	
+Numbers until the user press 0.
+
+Output: 
+a. Print quantity of inputs.
+b. Print average of the numbers.
+c. Print quantity of positive and negative numbers.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex3b.cc
+Calculate the greatest common divisor
+=============================================
+Written by: Ron Efraim, id = 204661425, login = ronef
+
+The program receive from the user pairs of numbers until he press 0.
+The program then calculate the greatest common divisor for a pair of numbers each time.
+
+Compile: g++ -Wall ex3b.cc –o ex3b
+Run: ex3b
+
+Input:
+Pairs of numbers until the user press 0.
+
+Output:
+Print the greatest common divisor.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex3c.cc
+Guess a number
+=============================================================
+Writen by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user a number as ranges, then randomize a number between 0 to this input.
+The user input a guess and the program tells the user if his guess is bigger or smaller than the randomized number
+Near the end, when the user guess the right number, the program will give him a grade.
+At the end the program ask the user if he wants to play again.
+
+Compile: g++ -Wall ex3c.cc –o ex3c
+Run: ex3c
+
+Input:
+a. Receive a number to build a range.
+b. Receive a guessing numbers.
+c. Receive a number to play or not to play another game.
+
+Output:
+a. Print if the guesses are too big or too small.
+b. Print quantity of user and unlucky user guesses.
+c. Print grade.
+d. Ask the user if he wants to play again.
+
+
