@@ -1,0 +1,55 @@
+File: ex1a.cc 
+Differences between numbers
+=============================================
+Writen by: Ron Efraim, id = 204661425, login = ronef
+
+The program calculates the differences between numbers.
+The user selects 3 numbers and the program will print the differences
+
+Compile: g++ -Wall ex1a.cc –o ex1a
+Run: ex1a
+
+Input: 	
+3 numbers
+
+Output: 
+The differences
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex1b.cc
+Calculate triangle area
+=============================================
+Writen by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from user 3 numbers and then 
+calculates the area and the perimeter of triangle.
+
+Compile: g++ -Wall ex1b.cc –o ex1b
+Run: ex1b
+
+input:
+3 numbers.
+output:
+The area of triangle.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex1c.cc
+Blocked Circle and Blocking Circle
+=============================================================
+Writen by: Ron Efraim, id = 204661425, login = ronef
+
+This program calculating the radius, the area and the perimeter
+of the blocked circle and the blocking circle.
+
+Compile: g++ -Wall ex1c.cc –o ex1c
+Run: ex1c
+
+input:
+4 variables
+output:
+The radius, area and perimeter of every circle.
+
+
