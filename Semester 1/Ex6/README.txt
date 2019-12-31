@@ -8,7 +8,7 @@ Then the program calculates the sum for every row.
 Then the program calculates the sum for every column.
 In the end, the program shows the row and the column with the maximum value in the matrix.
 
-Compile: g++ -Wall ex6a.cc –o ex6a
+Compile: g++ -Wall ex6a.cc â€“o ex6a
 Run: ex6a
 
 Input: 	
@@ -18,10 +18,7 @@ Output:
 a. 20 numbers to a matrix, 4 rows and 5 columns.
 b. Print the column with the maximum value.
 
-Runtime:
-2*(ROWS*COLS)    ->  (N*N)
-
--------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
 File:ex6b.cc
 Containing row
@@ -37,7 +34,7 @@ One dimensional array contains the second one-dimensional array only if each val
 (except for a zero) appears in the second array the same number of times, 
 or less times, than it does in the first array.
 
-Compile: g++ -Wall ex6b.cc –o ex6b
+Compile: g++ -Wall ex6b.cc â€“o ex6b
 Run: ex6b
 
 Input:
@@ -48,11 +45,7 @@ Output:
   b. Print the row contain the same quantity of values.
   c. if there is no containing row the output is "-1".
 
-Runtime:
-Part A- (ROWS*ROWS*COLS*COLS)   ->   (N*N*N*N)
-Part B- (ROWS*ROWS*COLS*COLS)   ->   (N*N*N*N)
-
----------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
 File:ex6c.cc
 Sudoku test
@@ -68,7 +61,7 @@ A matrix will be called a "Valid Sudoku Table" if:
 - every column contains values between 1-9 and every value appears only one time.
 - every sub square contains values between 1-9 and every value appears only one time.
 
-Compile: g++ -Wall ex6c.cc –o ex6c
+Compile: g++ -Wall ex6c.cc â€“o ex6c
 Run: ex6c
 
 Input:
@@ -76,8 +69,4 @@ Input:
 
 Output:
 Print the row with the greater values in left corner.
-
-Runtime:
-(ROWS*COLS)^3     ->  (N*N)^3
-
 
