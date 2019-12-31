@@ -1,1 +1,67 @@
+File: ex4a.cc 
+Variance Calculation
+=============================================
+Written by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user 7 numbers.
+Then the program calculates the sum and the average of array.
+In the end, the program shows the average and the variance of array.
+
+Compile: g++ -Wall ex4a.cc –o ex4a
+Run: ex4a
+
+Input: 	
+7 numbers.
+
+Output: 
+a. Print the average.
+b. Print the variance.
+
+Runtime:
+2*N=N
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex4b.cc
+Find the Common number
+=============================================
+Written by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user 10 numbers.
+Then the program prints the common number (numbers).
+
+Compile: g++ -Wall ex4b.cc –o ex4b
+Run: ex4b
+
+Input:
+10 numbers.
+
+Output:
+Print the common number (numbers).
+
+Runtime:
+3*N*N=N^2
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex4c.cc
+Guess a number
+=============================================================
+Writen by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user 10 numbers.
+Then the program checks if there is a loop in the array
+
+Compile: g++ -Wall ex4c.cc –o ex4c
+Run: ex4c
+
+Input:
+10 numbers.
+
+Output:
+The numbers of cells that contain the loop.
+
+Runtime:
+N*2=N
+
 
