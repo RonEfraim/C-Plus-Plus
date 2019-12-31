@@ -17,9 +17,6 @@ Output:
 a. Print the average.
 b. Print the variance.
 
-Runtime:
-2*N=N
-
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 File:ex4b.cc
@@ -38,9 +35,6 @@ Input:
 
 Output:
 Print the common number (numbers).
-
-Runtime:
-3*N*N=N^2
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -61,7 +55,5 @@ Input:
 Output:
 The numbers of cells that contain the loop.
 
-Runtime:
-N*2=N
 
 
