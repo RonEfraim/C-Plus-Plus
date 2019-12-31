@@ -1,0 +1,62 @@
+File: ex5a.cc 
+locate a row and a column with the maximum value
+=============================================
+Written by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user 20 numbers.
+Then the program calculates the sum for every row.
+Then the program calculates the sum for every column.
+In the end, the program shows the row and the column with the maximum value in the matrix.
+
+Compile: g++ -Wall ex5a.cc –o ex5a
+Run: ex5a
+
+Input: 	
+20 numbers to a matrix, 4 rows and 5 columns.
+
+Output: 
+a. 20 numbers to a matrix, 4 rows and 5 columns.
+b. Print the column with the maximum value.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex5b.cc
+Containing row
+=============================================
+Written by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user 20 numbers.
+Then the program checks if there is a row that contain all the values.
+In the end, the program checks if there is a row that contain the same quantity of values.
+
+Compile: g++ -Wall ex5b.cc –o ex5b
+Run: ex5b
+
+Input:
+20 numbers to a matrix, 4 rows and 5 columns.
+
+Output:
+  a. Print the row containing all values in the matrix.
+  b. Print the row contain the same quantity of values.
+  c. if there is no containing row the output is "-1".
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+File:ex5c.cc
+Left corner
+=============================================================
+Writen by: Ron Efraim, id = 204661425, login = ronef
+
+The program receives from the user 20 numbers.
+Then the program checks if the values in the upper-left corner are greater or equal 
+to the other values in the matrix.
+In the end, the program shows the row with the greater values in left corner
+
+Compile: g++ -Wall ex5c.cc –o ex5c
+Run: ex5c
+
+Input:
+20 numbers to a matrix, 5 rows and 4 columns.
+
+Output:
+Print the row with the greater values in left corner.
